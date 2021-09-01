@@ -6,13 +6,75 @@ body {
   background-color: #00134d;
 }
 
-.main {
+.area {
+  min-height: 800px;
+}
+
+#area1 {
   background-image: url(/img/ironman2.jpg);
-  background-color: #cccc;
-  min-height: 700px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  min-height: 700px;
+
+  .boxtext {
+    width: 400px;
+    height: 200px;
+    position: relative;
+    top: 15em;
+    left: 20em;
+    color: white;
+
+    .btn {
+      background-color: rgb(198, 138, 19);
+      color: white;
+    }
+
+    .text1 {
+      font-size: 1.5em;
+    }
+
+    .text2 {
+      font-size: 3em;
+    }
+
+    .text3 {
+      font-size: 2.5em;
+
+      span {
+        color: red;
+      }
+    }
+  }
 }
 
+#area2 {
+  background-color: #001f28;
 
+  #cont2 {
+    text-align: center;
+    padding: 2em;
+    color: rgb(198, 138, 19);
+
+    .card {
+      position: relative;
+      top: 5em;
+      margin-left: 250px;
+      border-radius: 30px;
+
+      img {
+        border-radius: 30px;
+      }
+    }
+
+    .boxbio {
+      width: 30rem;
+      height: 25rem;
+      position: relative;
+      bottom: 17em;
+      margin-left: 580px;
+      background-color: white;
+      border-radius: 30px;
+    }
+  }
+}
